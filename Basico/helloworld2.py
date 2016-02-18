@@ -60,5 +60,6 @@ print('Medias de acelerómetros:' + str(medias))
 medias=np.mean(gyr1, axis=1)  
 print('Medias de giróscopos:' + str(medias))
 
-raw_input("Press enter to finish...")
+#en el mac no va esto:
+#raw_input("Press enter to finish...")
 
